@@ -26,6 +26,12 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     "nav": [
+      { "text": '空白页', "link": '/supplierAllBack/', "icon": 'reco-date' },
+      {
+        "text": "首页",
+        "link": "/",
+        "icon": "reco-home"
+      },
       {
         "text": "时间经历",
         "link": "/timeline/",
