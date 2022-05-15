@@ -1,0 +1,27 @@
+{
+  "name": "apeblog",
+  "version": "1.0.0",
+  "description": "",
+  "author": "reco_luan",
+  "scripts": {
+    "build": "vuepress build .",
+    "dev": "vuepress dev . --open --host \"localhost\""
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "element-ui": "^2.3.6",
+    "vue-canvas-effect": "^0.0.12"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "core-js": "^2.6.12",
+    "vue-cli-plugin-element-ui": "~1.1.4",
+    "vuepress": "1.8.2",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-cursor-effects": "^1.1.2",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-reco": "^1.6.11"
+  }
+}

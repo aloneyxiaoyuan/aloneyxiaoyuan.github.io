@@ -1,0 +1,222 @@
+  //默认关灯
+    .offLight {
+      user-select: none
+      margin-top: -15px;
+      width: 100%;
+      height: 120px;
+      white-space: nowrap;
+      overflow: hidden;
+                  
+    }
+
+    .offLight li {
+      display: inline-block;
+      margin-top: 30px;
+      margin-right: 50px;
+      width: 15px;
+      height: 30px;
+      border-radius: 50%;
+      position: relative;
+      z-index: -1;
+    }
+
+    .offLight li::after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 12px;
+      background-color: rgb(27, 27, 27);
+      box-shadow: inset 0 0 3px rgb(129, 129, 129);
+      border-radius: 10px;
+
+    }
+
+    .offLight li::before {
+      content: '';
+      position: absolute;
+      top: -23px;
+      left: 15px;
+      width: 55px;
+      height: 30px;
+      border-bottom: 3px solid rgb(61, 61, 61);
+      border-radius: 50%;
+
+    }
+
+    .offLight li {
+      background-color: #f5f5f5;
+    }
+
+    /* 亮灯 */
+    .onLight {
+      user-select: none
+      margin-top: -15px
+      width: 100%;
+      height: 120px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .onLight li {
+      display: inline-block;
+      margin-top: 30px;
+      margin-right: 50px;
+      width: 15px;
+      height: 30px;
+      border-radius: 50%;
+           position: relative;
+      z-index: -1;
+    }
+
+    .onLight li::after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 12px;
+      background-color: rgb(27, 27, 27);
+      box-shadow: inset 0 0 3px rgb(129, 129, 129);
+      border-radius: 10px;
+
+    }
+
+    .onLight li::before {
+      content: '';
+      position: absolute;
+      top: -23px;
+      left: 15px;
+      width: 55px;
+      height: 30px;
+      border-bottom: 3px solid rgb(61, 61, 61);
+      border-radius: 50%;
+    }
+
+    .onLight li:nth-of-type(2n+1) {
+      animation: lan2 2s infinite;
+    }
+
+    .onLight li:nth-child(2n+2) {
+      animation: huang2 2.2s infinite;
+    }
+
+    .onLight li:nth-child(3n+3) {
+      animation: zhi2 1.8s infinite;
+    }
+
+    .onLight li:nth-child(4n+4) {
+      animation: lv2 2.8s infinite;
+    }
+
+    @keyframes lan2 {
+
+      0%,
+      100% {
+        background-color: rgba(4, 255, 242, 0.5);
+      }
+
+      50% {
+        background-color: rgb(4, 255, 242);
+        box-shadow: 0 0 10px rgb(4, 255, 242),
+          0 0 30px rgb(4, 255, 242),
+          0 0 50px rgb(4, 255, 242);
+      }
+    }
+
+    @keyframes huang2 {
+
+      0%,
+      100% {
+        background-color: rgba(251, 255, 4, .5);
+      }
+
+      50% {
+        background-color: rgb(251, 255, 4);
+        box-shadow: 0 0 10px rgb(251, 255, 4),
+          0 0 12px rgb(251, 255, 4),
+          0 0 30px rgb(251, 255, 4);
+      }
+    }
+
+    @keyframes lv2 {
+
+      0%,
+      100% {
+        background-color: rgba(33, 255, 4, .5);
+      }
+
+      50% {
+        background-color: rgb(33, 255, 4);
+        box-shadow: 0 0 10px rgb(33, 255, 4),
+          0 0 12px rgb(33, 255, 4),
+          0 0 30px rgb(33, 255, 4);
+      }
+    }
+
+    @keyframes zhi2 {
+
+      0%,
+      100% {
+        background-color: rgba(255, 4, 255, .5);
+      }
+
+      50% {
+        background-color: rgb(255, 4, 255);
+        box-shadow: 0 0 10px rgb(255, 4, 255),
+          0 0 25px rgb(255, 4, 255),
+          0 0 40px rgb(255, 4, 255);
+      }
+    }
+
+  
+//向下跳转的效果  
+.anchor-down {
+  display: block;
+  margin: 12rem auto 0;
+  bottom: 45px;
+  width: 20px;
+  height: 20px;
+  font-size: 34px;
+  text-align: center;
+  animation: bounce-in 5s 3s infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  margin-left: -10px;
+  cursor: pointer;
+}
+@-webkit-keyframes bounce-in{
+  0%{transform:translateY(0)}
+  20%{transform:translateY(0)}
+  50%{transform:translateY(-20px)}
+  80%{transform:translateY(0)}
+  to{transform:translateY(0)}
+}
+.anchor-down::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 10px;
+}
+.anchor-down::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  transform: rotate(135deg);
+}
+/* 设置背景图片 */
+body{
+  background:url(/image/bg/bg1.gif);
+}
