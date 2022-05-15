@@ -27,6 +27,11 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
+        "text": "首页",
+        "link": "/",
+        "icon": "reco-home"
+      },
+      {
         "text": "时间经历",
         "link": "/timeline/",
         "icon": "reco-date"
