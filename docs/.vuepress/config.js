@@ -2,6 +2,7 @@ module.exports = {
   //首页气泡 安装依赖: npm install vue-canvas-effect --save 
   //https://blog.csdn.net/qq_41327483/article/details/119103300?utm_source=app&app_version=5.3.1&code=app_1562916241&uLinkId=usr1mkqgl919blen
   "title": "apeBlog",
+  "base":"/",
   "description": " ",
   "dest": "public",
   "head": [
