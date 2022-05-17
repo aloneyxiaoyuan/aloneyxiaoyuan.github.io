@@ -2,7 +2,7 @@ module.exports = {
   //首页气泡 安装依赖: npm install vue-canvas-effect --save 
   //https://blog.csdn.net/qq_41327483/article/details/119103300?utm_source=app&app_version=5.3.1&code=app_1562916241&uLinkId=usr1mkqgl919blen
   "title": "apeBlog",
-  "base":"/",
+  "base": "/",
   "description": " ",
   "dest": "public",
   "head": [
@@ -21,7 +21,7 @@ module.exports = {
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
     ],
-    ["link", { rel: "stylesheet", href: "./styles/dark.styl" }],
+    ["link", { rel: "stylesheet", href: "./styles/index.styl" }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/hanzi-writer@3.0/dist/hanzi-writer.min.js' }],
   ],
   "theme": "reco",
@@ -64,7 +64,7 @@ module.exports = {
         "",
         "theme",
         "plugin",
-        "api"
+        "父子组件通信"
       ]
     },
     "type": "blog",
@@ -191,9 +191,9 @@ module.exports = {
         */
         audios: [
           {
-            name: '认错',
+            name: '幻听',
             artist: '许嵩',
-            url: 'https://dl.stream.qqmusic.qq.com/C400000s9NC00lWyaY.m4a?guid=4401694160&vkey=5CFFA7240358B96B0881D3E8FA9674EFAC478C87ED29560D711723B6C969F79C85F23A495FABA7AF17351C5B4B9B609539A8B58460DB8E51&uin=3463825798&fromtag=120002',
+            url: 'https://dl.stream.qqmusic.qq.com/C40000093zrb1f8t8K.m4a?guid=1506311242&vkey=C3C7189B091875365D121CAEA4FBEC3F64910C7031FF99A2F24E2256B12AB36DE5034A55D94142F76E1B0DE3CD17502C51DBA1C52BB1DDFC&uin=&fromtag=120002',
             cover: 'https://y.qq.com/music/photo_new/T002R300x300M000002KSDg90IaScI_1.jpg?max_age=2592000'
           },
           // {
