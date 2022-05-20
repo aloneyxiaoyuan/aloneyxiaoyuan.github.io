@@ -113,6 +113,7 @@ module.exports = {
     this.visible = closeNote !== 'true'
     }
     */
+	/*
     ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
       title: '消息提示',
       body: [
@@ -134,6 +135,7 @@ module.exports = {
         }
       ]
     }],
+	*/
     //光标  yarn add vuepress-plugin-cursor-effects -D
     [
       'cursor-effects',
