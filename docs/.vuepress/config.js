@@ -22,7 +22,7 @@ module.exports = {
       }
     ],
     ["link", { rel: "stylesheet", href: "./styles/index.styl" }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/hanzi-writer@3.0/dist/hanzi-writer.min.js' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/hanzi-writer/dist/hanzi-writer.min.js' }],
   ],
   "theme": "reco",
   "themeConfig": {
@@ -62,9 +62,13 @@ module.exports = {
     "sidebar": {
       "/docs/theme-reco/": [
         "",
-        "theme",
-        "plugin",
-        "父子组件通信"
+        "云音乐",
+        "小程序开发",
+        "父子组件通信",
+        "跨域处理",
+        "es6语法使用",
+        "项目中封装axios",
+        "vuex的使用"
       ]
     },
     "type": "blog",
@@ -113,29 +117,27 @@ module.exports = {
     this.visible = closeNote !== 'true'
     }
     */
-	/*
-    ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
-      title: '消息提示',
-      body: [
-        {
-          type: 'title',
-          content: '添加子狸为好友入前端交流群',
-          style: 'text-aligin: center;'
-        },
-        {
-          type: 'image',
-          src: '/image/user/aboutMe.png'
-        }
-      ],
-      footer: [
-        {
-          type: 'button',
-          text: '打赏',
-          link: '/donate'
-        }
-      ]
-    }],
-	*/
+    // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+    //   title: '消息提示',
+    //   body: [
+    //     {
+    //       type: 'title',
+    //       content: '添加子狸为好友入前端交流群',
+    //       style: 'text-aligin: center;'
+    //     },
+    //     {
+    //       type: 'image',
+    //       src: '/image/user/aboutMe.png'
+    //     }
+    //   ],
+    //   footer: [
+    //     {
+    //       type: 'button',
+    //       text: '打赏',
+    //       link: '/donate'
+    //     }
+    //   ]
+    // }],
     //光标  yarn add vuepress-plugin-cursor-effects -D
     [
       'cursor-effects',
