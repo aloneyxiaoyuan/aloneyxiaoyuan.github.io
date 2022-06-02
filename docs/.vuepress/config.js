@@ -68,7 +68,11 @@ module.exports = {
         "跨域处理",
         "es6语法使用",
         "项目中封装axios",
-        "vuex的使用"
+        "vuex的使用",
+        "重写push和replace方法",
+        "echarts的使用",
+        "mockjs的使用",
+        "常用的前端cdn库"
       ]
     },
     "type": "blog",
